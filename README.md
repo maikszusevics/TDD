@@ -21,21 +21,6 @@ It relies on an iterative approach which includes creation of tests first, devel
 
 
 ## Create new python project for TDD 
-### Created file with calculator class
-``` python
-class SimpleCals:
-
-    def add(self, value1, value2):
-        return value1+value2
-
-    def subtract(self, value1, value2 ):
-        return value1-value2
-    def multiply(self, value1, value2 ):
-        return value1*value2
-    def divide(self, value1, value2 ):
-        return value1/value2
-        
-```
 
 ### Created file called tdd for testing calculator class
 ```python 
@@ -58,3 +43,20 @@ class Caltests(unittest.TestCase):
     def test_div(self):
         self.assertEqual(self.calc_obj.divide(4,2),2)
 ```
+
+### refractor calculator class in calc file
+``` python
+class SimpleCals:
+
+    def add(self, value1, value2):
+        return value1+value2
+
+    def subtract(self, value1, value2 ):
+        return value1-value2
+    def multiply(self, value1, value2 ):
+        return value1*value2
+    def divide(self, value1, value2 ):
+        return value1/value2
+        
+```
+
