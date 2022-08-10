@@ -60,3 +60,33 @@ class SimpleCals:
         
 ```
 
+### Added 3 more tests to the TDD file:
+
+![image](https://user-images.githubusercontent.com/110176257/183935671-9d482622-a5aa-472c-b479-52bc33fbb4f7.png)
+
+
+#### When run, they fail:
+
+![image](https://user-images.githubusercontent.com/110176257/183935887-77af5dba-8cc1-47b8-9325-150dcc678fcd.png)
+
+
+- added functionality for DOB:
+
+![image](https://user-images.githubusercontent.com/110176257/183937325-dfae9760-c3ad-4002-ae35-3a566a9f57e5.png)
+
+- now only 2 tests fail, so DOB passes test
+
+![image](https://user-images.githubusercontent.com/110176257/183937454-316ff7ec-9641-46ba-aa8b-9bee056abc38.png)
+
+
+- added the rest of the fucntions
+
+![image](https://user-images.githubusercontent.com/110176257/183937965-706bd48a-8820-4b52-83fd-3f9ea4ff65b7.png)
+
+#### All tests passed:
+
+![image](https://user-images.githubusercontent.com/110176257/183938027-320360da-cb8b-49c6-9ad6-916e108b4751.png)
+
+
+
+
